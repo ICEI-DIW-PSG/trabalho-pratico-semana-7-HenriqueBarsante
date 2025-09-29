@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Crimson+Text:wght@400;700&display=swap');
+
+body {
+    font-family: 'Crimson Text', serif;
+    line-height: 1.8;
+    color: #c8c3ff;
+    background-color: #0f0f23;
+    scroll-padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Metamorphous', cursive;
+    color: #e6e6fa;
+}
+
+.navegacao-sticky {
+    position: sticky;
+    top: 20px;
+}
+
+.titulo-menu {
+    color: #6a0dad;
+    border-bottom: 2px solid #6a0dad;
+}
+
+.list-group-item {
+    background-color: #1a1a2e;
+    border-color: #333;
+    color: #b8b5ff;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover,
+.list-group-item.active {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+    color: #fff;
+}
+
+
+.secao {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 1px solid #6a0dad;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.secao:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(106, 13, 173, 0.4);
+}
+
+.secao img {
+    border: 2px solid #6a0dad;
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+
+
+.secao p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    background-color: #1a1a2e;
+    border: 1px solid #6a0dad;
+    color: #e6e6fa;
+}
+
+.form-control::placeholder {
+    color: #9370db;
+}
+
+.form-control:focus {
+    background-color: #1a1a2e;
+    color: #e6e6fa;
+    border-color: #9370db;
+    box-shadow: 0 0 0 0.25rem rgba(147, 112, 219, 0.25);
+}
+
+.form-label {
+    color: #e6e6fa;
+    font-weight: 600;
+}
+
+.btn-subscribe {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+    color: #fff;
+    font-family: 'Metamorphous', cursive;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-subscribe:hover {
+    background-color: #9370db;
+    border-color: #9370db;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .navegacao-sticky {
+        position: relative;
+        top: auto;
+    }
+    
+    .secao {
+        margin-bottom: 2rem;
+    }
+}
