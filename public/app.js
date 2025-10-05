@@ -10,3 +10,7 @@ const dados = [
       "imagem": "img/mobilidade.jpg"
     }
   ]
+  function mudarPagina() {
+        window.location.href = "index.html";
+        window.location.href = "detalhes.html"
+    }
