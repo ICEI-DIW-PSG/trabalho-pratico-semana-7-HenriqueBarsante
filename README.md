@@ -13,32 +13,33 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Henrique Sensato Arnal Melo Barsante
+- Matricula: 867638
+- Proposta de projeto escolhida: Site para apresentar os genêros do metal
+- Breve descrição sobre seu projeto: Site com enfoque em explorar os diferentes genêros incluidos no metal, identificando padrões, semelhanças e diferenças entre eles.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+>[alt text](public\Images\Sitehomepage.PNG)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+>[alt text](public\Images\sitedetalhes.PNG)
+
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
+const metalGenres = [
   {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+    id: 1,
+    nome: "Nu Metal",
+    descricaoCurta: "Fusão inovadora de metal com rap, funk e eletrônica",
+    descricaoCompleta: "O Nu Metal surgiu em meados da década de 1990 como uma fusão inovadora entre o heavy metal tradicional e elementos de outros gêneros musicais como rap, funk, grunge e música eletrônica. Este subgênero revolucionou a cena do metal ao incorporar técnicas vocais diversificadas, incluindo rap, vocais limpos melódicos e gritos agressivos. Bandas pioneiras como Korn, Limp Bizkit, Linkin Park e System of a Down definiram as características distintivas do Nu Metal.",
+    origem: "Estados Unidos",
+    auge: "Anos 1990-2000",
+    bandas: "Korn, Limp Bizkit, Linkin Park, System of a Down, Deftones",
+    imagem: "images/Numetal.jpg"
   }
 ]
 ```
